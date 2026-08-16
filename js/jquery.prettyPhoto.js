@@ -190,7 +190,7 @@
 			
 			if(settings.hideflash) $('object,embed,iframe[src*=youtube],iframe[src*=vimeo]').css('visibility','hidden'); // Hide the flash
 
-			_checkPosition($(pp_images).size()); // Hide the next/previous links if on first or last images.
+			_checkPosition(pp_images.length);// Hide the next/previous links if on first or last images.
 		
 			$('.pp_loaderIcon').show();
 		
@@ -208,8 +208,7 @@
 			$pp_overlay.show().fadeTo(settings.animation_speed,settings.opacity);
 
 			// Display the current position
-			$pp_pic_holder.find('.currentTextHolder').text((set_position+1) + settings.counter_separator_label + $(pp_images).size());
-
+$pp_pic_holder.find('.currentTextHolder').text((set_position+1) + settings.counter_separator_label + pp_images.length);
 			// Set the description
 			if(typeof pp_descriptions[set_position] != 'undefined' && pp_descriptions[set_position] != ""){
 				$pp_pic_holder.find('.pp_description').show().html(unescape(pp_descriptions[set_position]));
@@ -241,8 +240,7 @@
 
 						// Preload the neighbour images
 						nextImage = new Image();
-						if(isSet && set_position < $(pp_images).size() -1) nextImage.src = pp_images[set_position + 1];
-						prevImage = new Image();
+if(isSet && set_position < pp_images.length - 1) nextImage.src = pp_images[set_position + 1];						prevImage = new Image();
 						if(isSet && pp_images[set_position - 1]) prevImage.src = pp_images[set_position - 1];
 
 						$pp_pic_holder.find('#pp_full_res')[0].innerHTML = settings.image_markup.replace(/{path}/g,pp_images[set_position]);
@@ -382,11 +380,9 @@
 			
 			if(direction == 'previous') {
 				set_position--;
-				if (set_position < 0) set_position = $(pp_images).size()-1;
-			}else if(direction == 'next'){
+if (set_position < 0) set_position = pp_images.length - 1;			}else if(direction == 'next'){
 				set_position++;
-				if(set_position > $(pp_images).size()-1) set_position = 0;
-			}else{
+if(set_position > pp_images.length - 1) set_position = 0;			}else{
 				set_position=direction;
 			};
 			

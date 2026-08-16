@@ -248,7 +248,7 @@ textarea{
 .top-arrow{
   position: fixed;
   bottom: 50px;
-  background: url('../images/up-arrow.png') no-repeat 0 0;
+  background: url('../images/resources/up-arrow.svg') no-repeat 0 0;
   width: 30px;
   height: 30px;
   right: 30px;
@@ -382,7 +382,13 @@ textarea{
 .main-part{
 	float: left;
 	width: 100%;
+  margin: 120px 0 0 0;
 }
+.margin-top-zero{
+  margin: 0px !important ;
+
+}
+
 
 /* Revolution slider Change Here... */
 
@@ -446,12 +452,12 @@ textarea{
 
 .shedule-left{
   float: left;
-  width: 43%;
+  width: 48%;
 }
 
 .shedule-right{
   float: left;
-  width: 57%;
+  width: 47%;
   position: relative;
   height: 700px;
   padding: 110px 0px;
@@ -607,7 +613,7 @@ textarea{
   width: 100%;
   margin: 0 0 55px 0;
   position: relative;
-  background: url('../images/veg-bg.jpg') no-repeat center center;
+  background: url('../images/resources/veg-bg.webp') no-repeat center center;
   background-size: cover;
 }
 
@@ -857,6 +863,10 @@ span.quort{
   float: left;
   width: 100%;
   padding: 50px 0;
+}
+
+.footer-part .row > div:nth-child(2){
+  padding-left: 40px !important;
 }
 
 .footer-logo{
@@ -1242,7 +1252,7 @@ span.quort{
 
 .contact-container .shedule-left{
   margin: 0px !important;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 
 .contact-container button{
@@ -1804,13 +1814,6 @@ span.quort{
   color: #4a4a4a;
 }
 
-.service-areas-heading p{
-  margin: 0;
-  color: #777777;
-  font-size: 16px;
-  line-height: 28px;
-}
-
 .service-areas-grid > div{
   margin-bottom: 30px;
 }
@@ -1853,12 +1856,6 @@ span.quort{
   transition: all 0.3s ease;
 }
 
-.service-area-content p{
-  margin: 0;
-  color: #777777;
-  font-size: 14px;
-  line-height: 23px;
-}
 
 .service-area-card .area-arrow{
   margin-left: 12px;
@@ -2186,5 +2183,584 @@ span.quort{
     font-size: 25px;
     line-height: 32px;
   }
+
+}
+
+/* GALLERY CLOSE BUTTON */
+/* PrettyPhoto close button - force visible */
+.pp_pic_holder .pp_details{
+  display: block !important;
+  position: relative !important;
+  overflow: visible !important;
+}
+
+.pp_pic_holder .pp_close{
+  display: block !important;
+  position: fixed !important;
+  top: 20px !important;
+  right: 25px !important;
+  left: auto !important;
+  bottom: auto !important;
+
+  width: 45px !important;
+  height: 45px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  background: #181a1e !important;
+  background-image: none !important;
+
+  border-radius: 50% !important;
+  text-indent: 0 !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  z-index: 99999999 !important;
+  font-size: 0 !important;
+}
+
+.pp_pic_holder .pp_close:after{
+  content: "×";
+  display: block;
+  width: 45px;
+  height: 45px;
+
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+}
+
+.pp_pic_holder .pp_close:hover{
+  background: #dd6031 !important;
+}
+
+
+/* ==========================================================
+    LOS ANGELES CITY PAGE
+========================================================== */
+
+
+/* ==========================================================
+   SHARED
+========================================================== */
+
+.dtla-about,
+.dtla-food,
+.dtla-catering,
+.dtla-faq {
+    width: 100%;
+    position: relative;
+}
+
+.dtla-about,
+.dtla-catering {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.dtla-food,
+.dtla-faq {
+    padding: 80px 0;
+    background: #f7f7f7;
+}
+
+.dtla-eyebrow {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.dtla-heading {
+    max-width: 760px;
+    margin: 0 auto 42px;
+}
+
+.dtla-heading h2,
+.dtla-about-content h2,
+.dtla-catering-intro h2 {
+    margin: 0;
+    color: #333333;
+    font-size: 34px;
+    line-height: 1.12;
+    font-weight: 700;
+}
+
+.dtla-heading h2 {
+    margin-bottom: 12px;
+}
+
+
+.dtla-note {
+    margin-top: 28px;
+}
+
+
+
+/* ==========================================================
+   SECTION 2 - ABOUT
+========================================================== */
+
+.dtla-about-row {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.dtla-about-image {
+    width: calc(50% - 27.5px);
+}
+
+.dtla-about-content {
+    width: calc(50% - 27.5px);
+}
+
+.dtla-about-image img {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.dtla-about-content h2 {
+    max-width: 520px;
+    margin-bottom: 18px;
+}
+
+
+.dtla-about-content .btn-black {
+    margin-top: 7px;
+}
+
+
+/* ==========================================================
+   SECTION 3 - FOOD OPTIONS
+========================================================== */
+
+.dtla-food-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.dtla-food-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.dtla-food-image {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+}
+
+.dtla-food-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.dtla-food-card:hover .dtla-food-image img {
+    transform: scale(1.04);
+}
+
+.dtla-food-content {
+    flex: 1;
+    padding: 22px;
+}
+
+.dtla-food-content h3 {
+    margin: 0 0 8px;
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+
+/* ==========================================================
+   SECTION 4 - CATERING
+========================================================== */
+
+.dtla-catering-row {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.dtla-catering-intro {
+    width: calc(40% - 27.5px);
+}
+
+.dtla-catering-grid {
+    width: calc(60% - 27.5px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.dtla-catering-intro h2 {
+    max-width: 430px;
+    margin-bottom: 18px;
+}
+
+.dtla-catering-intro .btn-black {
+    margin-top: 5px;
+}
+
+.dtla-catering-card {
+    display: block;
+    min-height: 175px;
+    padding: 23px;
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dtla-catering-card:hover,
+.dtla-catering-card:focus {
+    color: #333333;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+}
+
+.dtla-catering-card i {
+    display: block;
+    margin-bottom: 12px;
+    color: #333333;
+    font-size: 22px;
+}
+
+.dtla-catering-card h3 {
+    margin: 0 0 8px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+/* ==========================================================
+   SECTION 5 - FAQ
+========================================================== */
+
+.dtla-faq .dtla-heading {
+    margin-bottom: 38px;
+}
+
+.dtla-faq-row {
+    display: flex;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.dtla-faq-image {
+    width: calc(48% - 20px);
+    overflow: hidden;
+}
+
+.dtla-faq-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.dtla-faq-list {
+    width: calc(52% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dtla-faq-item {
+    flex: 1;
+    padding: 18px 20px;
+    border-left: 3px solid #333333;
+    background: #ffffff;
+}
+
+.dtla-faq-item h3 {
+    margin: 0 0 7px;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+/* ==========================================================
+   TABLET - 768px TO 991px
+========================================================== */
+
+@media (max-width: 991px) {
+
+    .dtla-about,
+    .dtla-food,
+    .dtla-catering,
+    .dtla-faq {
+        padding: 60px 0;
+    }
+
+    .dtla-heading h2,
+    .dtla-about-content h2,
+    .dtla-catering-intro h2 {
+        font-size: 29px;
+    }
+
+
+    /* About */
+
+    .dtla-about-row {
+        gap: 35px;
+    }
+
+    .dtla-about-image {
+        width: calc(48% - 17.5px);
+    }
+
+    .dtla-about-content {
+        width: calc(52% - 17.5px);
+    }
+
+    .dtla-about-image img {
+        height: 380px;
+    }
+
+
+    /* Food */
+
+    .dtla-food-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .dtla-food-image {
+        height: 220px;
+    }
+
+
+    /* Catering */
+
+    .dtla-catering-row {
+        display: block;
+    }
+
+    .dtla-catering-intro {
+        width: 100%;
+        max-width: 650px;
+        margin-bottom: 35px;
+    }
+
+    .dtla-catering-intro h2 {
+        max-width: 550px;
+    }
+
+    .dtla-catering-grid {
+        width: 100%;
+    }
+
+
+    /* FAQ */
+
+    .dtla-faq-row {
+        gap: 28px;
+    }
+
+    .dtla-faq-image {
+        width: calc(45% - 14px);
+    }
+
+    .dtla-faq-list {
+        width: calc(55% - 14px);
+    }
+
+    .dtla-faq-image img {
+        min-height: 520px;
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE - BELOW 768px
+========================================================== */
+
+@media (max-width: 767px) {
+
+    .dtla-about,
+    .dtla-food,
+    .dtla-catering,
+    .dtla-faq {
+        padding: 45px 0;
+    }
+
+    .dtla-heading {
+        margin-bottom: 30px;
+    }
+
+    .dtla-heading h2,
+    .dtla-about-content h2,
+    .dtla-catering-intro h2 {
+        font-size: 26px;
+        line-height: 1.15;
+    }
+
+
+    /* About */
+
+    .dtla-about-row {
+        display: block;
+    }
+
+    .dtla-about-image,
+    .dtla-about-content {
+        width: 100%;
+    }
+
+    .dtla-about-image {
+        margin-bottom: 28px;
+    }
+
+    .dtla-about-image img {
+        width: 100%;
+        height: 350px;
+    }
+
+
+    /* Food */
+
+    .dtla-food-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .dtla-food-image {
+        height: 300px;
+    }
+
+    .dtla-food-content {
+        padding: 20px;
+    }
+
+
+    /* Catering */
+
+    .dtla-catering-intro {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .dtla-catering-grid {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .dtla-catering-card {
+        min-height: 0;
+        padding: 20px;
+    }
+
+
+    /* FAQ */
+
+    .dtla-faq .dtla-heading {
+        margin-bottom: 28px;
+    }
+
+    .dtla-faq-row {
+        display: block;
+    }
+
+    .dtla-faq-image,
+    .dtla-faq-list {
+        width: 100%;
+    }
+
+    .dtla-faq-image {
+        margin-bottom: 25px;
+    }
+
+    .dtla-faq-image img {
+        width: 100%;
+        height: 350px;
+        min-height: 0;
+    }
+
+    .dtla-faq-list {
+        display: block;
+    }
+
+    .dtla-faq-item {
+        margin-bottom: 12px;
+        padding: 18px;
+    }
+
+    .dtla-faq-item:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE - BELOW 481px
+========================================================== */
+
+@media (max-width: 480px) {
+
+    .dtla-about,
+    .dtla-food,
+    .dtla-catering,
+    .dtla-faq {
+        padding: 40px 0;
+    }
+
+    .dtla-heading h2,
+    .dtla-about-content h2,
+    .dtla-catering-intro h2 {
+        font-size: 24px;
+    }
+
+    .dtla-about-image img {
+        height: 270px;
+    }
+
+    .dtla-food-image {
+        height: 250px;
+    }
+
+    .dtla-faq-image img {
+        height: 280px;
+    }
+
+    .dtla-food-content h3 {
+        font-size: 19px;
+    }
+
+    .dtla-catering-card h3 {
+        font-size: 17px;
+    }
+
+    .dtla-faq-item h3 {
+        font-size: 15px;
+    }
 
 }

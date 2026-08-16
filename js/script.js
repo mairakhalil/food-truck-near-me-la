@@ -73,26 +73,33 @@ $(function(){
 	    map.setTilt(45);	        
 	    // Multiple Markers
 	    var markers = [
-	        ['Kansas City', 37.88352498,-106.57836914],
-	        ['Oakland City', 42.26917949,-103.89770508],
-	        ['California City', 39.73253798,-96.03149414],
-	        ['San Francisco City', 38.00481997,-85.59448242],
-	        ['New York City', 36.58906837,-95.57006836],
-	        ['Arizona City', 43.01918507,-95.7019043],
-	        ['Los Angeles City', 41.68111756,-89.00024414],
-	        ['Miami City', 42.81958072,-78.87084961],
+	         ['Downtown Los Angeles', 34.0407, -118.2468],
+    ['Hollywood', 34.0928, -118.3287],
+    ['West Hollywood', 34.0900, -118.3617],
+    ['Santa Monica', 34.0195, -118.4912],
+    ['Beverly Hills', 34.0736, -118.4004],
+    ['Culver City', 34.0211, -118.3965],
+    ['Pasadena', 34.1478, -118.1445],
+    ['Burbank', 34.1808, -118.3090]
 	    ];	                        
 	    // Info Window Content
 	    var infoWindowContent = [
-	        ['<div id="0"><img src="images/post-gallery1.jpg" width="200px"><h3><a href="javascript:;">Kansas City</a></h3><p>No 97, Hudd Park, San Francisco<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="1"><img src="images/post-gallery2.jpg" width="200px"><h3><a href="javascript:;">Oakland City</a></h3><p>No 97, Hudd Park, Oakland<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="2"><img src="images/post-gallery3.jpg" width="200px"><h3><a href="javascript:;">California City</a></h3><p>No 97, Hudd Park, California<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="3"><img src="images/post-gallery2.jpg" width="200px"><h3><a href="javascript:;">San Francisco</a></h3><p>No 97, Hudd Park, San Francisco<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="4"><img src="images/post-gallery1.jpg" width="200px"><h3><a href="javascript:;">New York City</a></h3><p>No 97, Hudd Park, New York<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="5"><img src="images/post-gallery2.jpg" width="200px"><h3><a href="javascript:;">Arizona City</a></h3><p>No 97, Hudd Park, Arizona<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="6"><img src="images/post-gallery3.jpg" width="200px"><h3><a href="javascript:;">Los Angeles</a></h3><p>No 97, Hudd Park, Los Angeles<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	        ['<div id="7"><img src="images/post-gallery3.jpg" width="200px"><h3><a href="javascript:;">Miami City</a></h3><p>No 97, Hudd Park, Miami<br> Monday - Friday: 09:00 - 20:00 <br> Saturday: 09:00 - 18:00 <br> Sunday: closed</p></div>'],
-	    ];	        
+	       ['<div id="0"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Downtown Los Angeles"><h3>Downtown Los Angeles</h3><p>Mexican food truck service for local dining, private parties, corporate events and catered gatherings in Downtown LA.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="1"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Hollywood Los Angeles"><h3>Hollywood</h3><p>Food truck options for parties, celebrations, business events and local gatherings throughout Hollywood.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="2"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in West Hollywood"><h3>West Hollywood</h3><p>Mexican food truck catering options for private events, birthdays, corporate gatherings and celebrations in West Hollywood.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="3"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Santa Monica"><h3>Santa Monica</h3><p>Food truck service options for private parties, special events and catered gatherings in the Santa Monica area.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="4"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Beverly Hills"><h3>Beverly Hills</h3><p>Mexican food truck catering options for celebrations, private gatherings and corporate events in Beverly Hills.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="5"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Culver City"><h3>Culver City</h3><p>Food truck options for local events, production catering, private parties and business gatherings in Culver City.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="6"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Pasadena"><h3>Pasadena</h3><p>Mexican food truck service options for birthdays, private celebrations, corporate events and local gatherings in Pasadena.<br><strong>Service:</strong> Based on availability</p></div>'],
+
+    ['<div id="7"><img src="images/resources/Al-Pastor-Tacos.webp" width="200" alt="Mexican food truck service in Burbank"><h3>Burbank</h3><p>Food truck options for film productions, corporate events, private parties and celebrations throughout Burbank.<br><strong>Service:</strong> Based on availability</p></div>']
+  ];	        
 	    // Display multiple markers on a map
 	    var infoWindow = new google.maps.InfoWindow(), marker, i;	    
 	    // Loop through our array of markers & place each one on the map  
