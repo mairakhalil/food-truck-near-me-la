@@ -472,12 +472,12 @@ textarea {
 
 .shedule-left {
   float: left;
-  width: 48%;
+  width: 43%;
 }
 
 .shedule-right {
   float: left;
-  width: 47%;
+  width: 57%;
   position: relative;
   height: 700px;
   padding: 110px 0px;
@@ -506,7 +506,8 @@ textarea {
   padding: 0 0 0 30px;
 }
 
-.shedule-inside h6 {
+.shedule-inside h6,
+.shedule-inside p {
   margin: 0px;
   line-height: 38px;
 }
@@ -971,7 +972,7 @@ span.quort {
   width: 100%;
 }
 
-.address-outer h6 {
+.address-outer h6, .address-outer h4 {
   color: #ffffff;
   margin: 0px;
   line-height: 24px;
@@ -1279,7 +1280,7 @@ span.quort {
 
 .contact-container .shedule-left {
   margin: 0px !important;
-  padding-right: 35px;
+  padding-right: 25px;
 }
 
 .contact-container button {
