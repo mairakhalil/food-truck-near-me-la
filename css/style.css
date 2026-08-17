@@ -34,11 +34,12 @@ Sidebar heading : 18px JosefinSans, Open sans;
 /* Fonts Style Start Here... */
 
 @font-face {
-    font-family: 'droid_sansbold';
-    src: url('../fonts/droidsans-bold-webfont.woff2') format('woff2'),
-         url('../fonts/droidsans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "droid_sansbold";
+  src:
+    url("../fonts/droidsans-bold-webfont.woff2") format("woff2"),
+    url("../fonts/droidsans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*------------------------------------------------------------------
@@ -71,12 +72,12 @@ Sidebar heading : 18px JosefinSans, Open sans;
 ------------------------------------------------------------------*/
 
 /* Reset Style Start Here... */
-body{
-	font-size: 16px;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Droid Serif', serif;
-	color: #4a4a4a;
+body {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Droid Serif", serif;
+  color: #4a4a4a;
   overflow-x: hidden;
   line-height: 26px;
 }
@@ -84,71 +85,81 @@ body{
 /*------------------------------------------------------------------
 [2. Typography ]
 ------------------------------------------------------------------*/
-h1 , h2 , h3 , h4 , h5 , h6 , p{
-	margin: 10px 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 10px 0;
 }
 
-h1{
-
+h1 {
 }
 
-h2{
+h2 {
   font-size: 48px;
   line-height: 47px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
-h3{
+h3 {
   font-size: 30px;
   line-height: 47px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
-h4{
+h4 {
   font-size: 26px;
   line-height: 30px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
-h5{
+h5 {
   font-size: 22px;
   line-height: 30px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
-h6{
+h6 {
   font-size: 18px;
   line-height: 28px;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
   font-weight: 700;
 }
 
-ul , ol{
-	margin: 0 0 0 5px;
-	padding: 0px;
+ul,
+ol {
+  margin: 0 0 0 5px;
+  padding: 0px;
 }
 
-ul li , ol li{
-	margin: 0 0 0 10px;
-	padding: 0px;
+ul li,
+ol li {
+  margin: 0 0 0 10px;
+  padding: 0px;
 }
 
-img{
-	max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-a , a:visited , a:focus , a:hover{
-	outline: none;
-	text-decoration: none;
-	color: inherit;
+a,
+a:visited,
+a:focus,
+a:hover {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
 }
 
-a{
-	color: #dd6031;
+a {
+  color: #dd6031;
 }
 
 .btn-black {
@@ -177,7 +188,7 @@ a{
   -webkit-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  border:none;
+  border: none;
 }
 
 .btn-black:before {
@@ -199,22 +210,29 @@ a{
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-   border-radius: 4px;
+  border-radius: 4px;
   -webkit-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-.btn-black:hover, .btn-black:focus, .btn-black:active {
+.btn-black:hover,
+.btn-black:focus,
+.btn-black:active {
   color: #ffffff;
   background: #dd6031;
 }
-.btn-black:hover:before, .btn-black:focus:before, .btn-black:active:before {
+.btn-black:hover:before,
+.btn-black:focus:before,
+.btn-black:active:before {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
 
-input[type="text"] , input[type="email"], input[type="password"] , textarea{
-  border:1px solid #e3e2e2;
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 1px solid #e3e2e2;
   height: 40px;
   width: 100%;
   padding: 10px 20px;
@@ -224,31 +242,31 @@ input[type="text"] , input[type="email"], input[type="password"] , textarea{
   -o-border-radius: 4px;
 }
 
-textarea{
+textarea {
   height: 135px;
-  resize:none;
+  resize: none;
 }
 
 ::-webkit-input-placeholder {
-   color: #4a4a4a;
+  color: #4a4a4a;
 }
 
 :-moz-placeholder {
-   color: #4a4a4a;  
+  color: #4a4a4a;
 }
 
 ::-moz-placeholder {
-   color: #4a4a4a;  
+  color: #4a4a4a;
 }
 
-:-ms-input-placeholder {  
-   color: #4a4a4a;  
+:-ms-input-placeholder {
+  color: #4a4a4a;
 }
 
-.top-arrow{
+.top-arrow {
   position: fixed;
   bottom: 50px;
-  background: url('../images/resources/up-arrow.svg') no-repeat 0 0;
+  background: url("../images/resources/up-arrow.svg") no-repeat 0 0;
   width: 30px;
   height: 30px;
   right: 30px;
@@ -264,86 +282,88 @@ textarea{
 
 /* Header menu part */
 
-.header-part{
-	float: left;
-	width: 100%;
-	text-align: center;
-	position: relative;
-	z-index: 9998;
-	height: 90px;
+.header-part {
+  float: left;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 9998;
+  height: 90px;
 }
 
 /*------------------------------------------------------------------
 [3.1. Menu ]
 ------------------------------------------------------------------*/
 
-.menu-part-outer{
-	display: inline-block;
-	width: auto;
-	font-size: 14px;
+.menu-part-outer {
+  display: inline-block;
+  width: auto;
+  font-size: 14px;
 }
 
-.menu-part{
-	float: left;
-	width: 100%;
-	padding: 20px 0 0 0;
+.menu-part {
+  float: left;
+  width: 100%;
+  padding: 20px 0 0 0;
 }
 
-.menu-part ul , .menu-part ul li{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+.menu-part ul,
+.menu-part ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.menu-part ul li{
-	float: left;
-	width: auto;
-	margin: 0 74px 0 0;
-	position: relative;
+.menu-part ul li {
+  float: left;
+  width: auto;
+  margin: 0 74px 0 0;
+  position: relative;
 }
 
-#page{
+#page {
   display: none;
 }
 
-.logo-header{
+.logo-header {
   display: none;
 }
 
-.menu-part ul li:last-child{
+.menu-part ul li:last-child {
   margin: 0px;
 }
 
-.menu-part ul li a{
-	float: left;
-	width: 100%;
-	padding: 20px 0 24px 0;
-	color: #494949;
-	text-transform: uppercase;
-	position: relative;
+.menu-part ul li a {
+  float: left;
+  width: 100%;
+  padding: 20px 0 24px 0;
+  color: #494949;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .menu-part > ul > li > a:after {
-    color: transparent;
-    content: attr(title);
-    display: block;
-    font-weight: bold;
-    height: 1px;
-    margin-bottom: -1px;
-    overflow: hidden;
-    visibility: hidden;
+  color: transparent;
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  height: 1px;
+  margin-bottom: -1px;
+  overflow: hidden;
+  visibility: hidden;
 }
 
-.menu-part ul li:hover a , .menu-part ul li.active a{
-	color: #dd6031;
-	font-weight: 700;
+.menu-part ul li:hover a,
+.menu-part ul li.active a {
+  color: #dd6031;
+  font-weight: 700;
 }
 
-.menu-part ul .logo a{
-	background: url('../images/logo/food-truck-near-me-la-logo.svg') no-repeat center center;
-	width: 171px;
-	height: 151px;
-	margin-top: -20px;
+.menu-part ul .logo a {
+  background: url("../images/logo/food-truck-near-me-la-logo.svg") no-repeat center center;
+  width: 171px;
+  height: 151px;
+  margin-top: -20px;
 }
 
 /*------------------------------------------------------------------
@@ -352,110 +372,110 @@ textarea{
 
 /* Swiper slider css */
 
-.slider-container{
+.slider-container {
   float: left;
   width: 100%;
 }
 
- .swiper-container {
-    width: 100%;
-    height: 100%;
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #ffffff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-.main-part{
-	float: left;
-	width: 100%;
+.main-part {
+  float: left;
+  width: 100%;
   margin: 120px 0 0 0;
 }
-.margin-top-zero{
+.margin-top-zero {
   margin: 0px !important ;
-
 }
-
 
 /* Revolution slider Change Here... */
 
-.slider-outer{
-	float: left;
-	width: 100%;
-	position: relative;
+.slider-outer {
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
-.slider-outer ul , .slider-outer ul li{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+.slider-outer ul,
+.slider-outer ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.slider-outer .tp-leftarrow ,.slider-outer .tp-rightarrow{
-	display: none !important;
+.slider-outer .tp-leftarrow,
+.slider-outer .tp-rightarrow {
+  display: none !important;
 }
 
 /*------------------------------------------------------------------
 [5. Our Schedule ]
 ------------------------------------------------------------------*/
-.tp-caption.very_large_text{
-	font-size: 72px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	color: #ffffff;
-	line-height: 82px;
-	text-shadow:none;
+.tp-caption.very_large_text {
+  font-size: 72px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 82px;
+  text-shadow: none;
 }
 
-.tp-bgimg:before{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.5);
-	content: "";
+.tp-bgimg:before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  content: "";
 }
 
-.tp-caption.large_text{
-	color: #ffffff;
-	text-shadow:none;
-	font-size: 30px;
-	line-height: 34px;
+.tp-caption.large_text {
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 30px;
+  line-height: 34px;
 }
 
 /* Shedule Part for dinner and food items */
 
-.shedule-container{
+.shedule-container {
   float: left;
   width: 100%;
   margin: 0 0 110px 0;
 }
 
-.shedule-part{
+.shedule-part {
   float: left;
   width: 100%;
 }
 
-.shedule-left{
+.shedule-left {
   float: left;
   width: 48%;
 }
 
-.shedule-right{
+.shedule-right {
   float: left;
   width: 47%;
   position: relative;
@@ -464,7 +484,7 @@ textarea{
   color: #ffffff;
 }
 
-.shedule-right img{
+.shedule-right img {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -472,33 +492,33 @@ textarea{
   z-index: -1;
 }
 
-.shedule-right h2{
+.shedule-right h2 {
   margin-top: 0px;
 }
 
-.shedule-right h3{
+.shedule-right h3 {
   margin: 22px 0 6px 0;
 }
 
-.shedule-inside{
+.shedule-inside {
   display: inline-block;
   width: 100%;
   padding: 0 0 0 30px;
 }
 
-.shedule-inside h6{
+.shedule-inside h6 {
   margin: 0px;
   line-height: 38px;
 }
 
-.free-juice{
+.free-juice {
   margin: 50px 0 0 0;
   display: inline-block;
   width: 100%;
   text-align: center;
 }
 
-.glass{
+.glass {
   position: absolute;
   bottom: 75px;
   right: -20px;
@@ -506,9 +526,9 @@ textarea{
   height: 173px;
 }
 
-.shedule-content{
+.shedule-content {
   margin: 0 auto;
-  width:400px;
+  width: 400px;
   position: relative;
 }
 
@@ -518,53 +538,57 @@ textarea{
 
 /* Gallery Part for Home page with lightbox */
 
-.gallery-container{
+.gallery-container {
   float: left;
   width: 100%;
   margin: 0 0 110px 0;
 }
 
-.gallery-outer{
+.gallery-outer {
   float: left;
   width: 100%;
 }
 
-.gallery-outer img{
+.gallery-outer img {
   width: 100%;
 }
 
-.heading{
+.heading {
   margin: 0 0 55px 0;
 }
 
-.pp_social{
+.pp_social {
   display: none !important;
 }
 
-.left-gallery , .gallery-item , .right-gallery{
+.left-gallery,
+.gallery-item,
+.right-gallery {
   padding: 0px;
 }
 
-.gallery-item a{
+.gallery-item a {
   position: relative;
   display: block;
 }
 
-.gallery-item a:before , .gallery-block-right a:before{
+.gallery-item a:before,
+.gallery-block-right a:before {
   position: absolute;
   left: 0px;
   top: 0px;
   width: 0;
   height: 100%;
   content: "";
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
-.gallery-item .fa-plus , .gallery-block-right .fa-plus{
+.gallery-item .fa-plus,
+.gallery-block-right .fa-plus {
   position: absolute;
   top: 50%;
   left: 0;
@@ -580,7 +604,8 @@ textarea{
   margin-left: -15px;
 }
 
-.gallery-item:hover a:before , .gallery-block-right:hover a:before{
+.gallery-item:hover a:before,
+.gallery-block-right:hover a:before {
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
@@ -588,7 +613,8 @@ textarea{
   transition: 0.3s ease-in-out;
 }
 
-.gallery-item:hover .fa-plus , .gallery-block-right:hover .fa-plus{
+.gallery-item:hover .fa-plus,
+.gallery-block-right:hover .fa-plus {
   left: 50%;
   font-size: 36px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -597,7 +623,7 @@ textarea{
   transition: 0.3s ease-in-out;
 }
 
-.gallery-block-right{
+.gallery-block-right {
   float: left;
   width: 100%;
 }
@@ -608,60 +634,60 @@ textarea{
 
 /* Dishes (Product) list Blog */
 
-.product-container{
+.product-container {
   float: left;
   width: 100%;
   margin: 0 0 55px 0;
   position: relative;
-  background: url('../images/resources/veg-bg.webp') no-repeat center center;
+  background: url("../images/resources/veg-bg.webp") no-repeat center center;
   background-size: cover;
 }
 
-.tomato{
+.tomato {
   position: absolute;
   top: -2%;
   left: 20px;
 }
 
-.mashroom{
+.mashroom {
   position: absolute;
   bottom: 0px;
-  left: -150px; 
+  left: -150px;
 }
 
-.pie-larg{
+.pie-larg {
   position: absolute;
   top: 37%;
-  right: -150px;  
+  right: -150px;
 }
 
-.dishes-container{
+.dishes-container {
   float: left;
   width: 100%;
 }
 
-.dishes-list{
+.dishes-list {
   float: left;
   width: 100%;
   margin: 0 0 60px 0;
 }
 
-.dishes-img{
+.dishes-img {
   float: left;
   width: 100%;
   position: relative;
 }
 
-.dishes-list .dishes-img img{
+.dishes-list .dishes-img img {
   width: 100%;
 }
 
-.dishes_price{
+.dishes_price {
   position: absolute;
   bottom: 20px;
   right: 20px;
   background: #4a4a4a;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 20px;
@@ -675,58 +701,59 @@ textarea{
   text-align: center;
 }
 
-.dishes-price-content{
+.dishes-price-content {
   height: 80px;
   margin: 0 auto;
   width: 57px;
   clear: both;
 }
 
-.dishes_price del, .dishes_price .del{
+.dishes_price del,
+.dishes_price .del {
   font-size: 60%;
   display: block;
   margin-bottom: 10px;
 }
 
-.deshies-doll{
+.deshies-doll {
   height: 80px;
   display: table-cell;
   vertical-align: middle;
 }
 
-.dishes-content{
+.dishes-content {
   float: left;
   width: 100%;
 }
 
-.dishes-content h3 a{
+.dishes-content h3 a {
   color: #4a4a4a;
 }
 
-.dishes-list:hover h3 a{
+.dishes-list:hover h3 a {
   color: #dd6031;
 }
 
-.dishes-list:hover .dishes_price{
+.dishes-list:hover .dishes_price {
   background: #dd6031;
 }
 
-.dishes-list .btn-black{
+.dishes-list .btn-black {
   margin-top: 20px;
 }
 
-.dishes-list:hover .btn-black{
+.dishes-list:hover .btn-black {
   color: #ffffff;
   background: #dd6031;
 }
-.dishes-list:hover .btn-black:before{
+.dishes-list:hover .btn-black:before {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
 
 /* Our client say blog */
 
-.our-client-container{
+.our-client-container {
   float: left;
   width: 100%;
 }
@@ -735,22 +762,22 @@ textarea{
 [8. Our Client ]
 ------------------------------------------------------------------*/
 
-.our-client{
+.our-client {
   float: left;
   width: 100%;
 }
 
-.client-content{
+.client-content {
   float: left;
   width: 100%;
   margin: 0 0 40px 0;
 }
 
-.client-content p{
+.client-content p {
   position: relative;
 }
 
-span.quort{
+span.quort {
   position: absolute;
   font-size: 100px;
   top: 0px;
@@ -760,7 +787,8 @@ span.quort{
   top: 15px;
 }
 
-.client-content b , .client-content strong{
+.client-content b,
+.client-content strong {
   font-size: 18px;
 }
 
@@ -770,7 +798,7 @@ span.quort{
 
 /* Find where you are */
 
-.find-container{
+.find-container {
   float: left;
   width: 100%;
   background: #181a1e;
@@ -778,15 +806,15 @@ span.quort{
   color: #ffffff;
 }
 
-.find-location-right{
+.find-location-right {
   color: #dd6031;
 }
 
-.find-location-right .fa{
+.find-location-right .fa {
   font-size: 72px;
 }
 
-.map-container{
+.map-container {
   float: left;
   width: 100%;
 }
@@ -799,22 +827,22 @@ span.quort{
   width: 100%;
 }
 
-.location{
+.location {
   float: left;
   padding-top: 25px;
 }
 
-.location-content{
+.location-content {
   margin-left: 70px;
 }
 
-.location-content h6{
+.location-content h6 {
   margin: 0px;
   font-size: 36px;
   line-height: 46px;
 }
 
-.find-where-you{
+.find-where-you {
   margin: 0 auto;
   max-width: 1500px;
   position: relative;
@@ -824,20 +852,20 @@ span.quort{
 [11. Footer ]
 ------------------------------------------------------------------*/
 
-.food1{
+.food1 {
   position: absolute;
   top: 15px;
   max-width: 120px;
 }
 
-.food2{
+.food2 {
   bottom: -80px;
   max-width: 300px;
   position: absolute;
   right: -50px;
 }
 
-.footer-part{
+.footer-part {
   float: left;
   width: 100%;
   background: #181a1e;
@@ -846,40 +874,40 @@ span.quort{
   line-height: 24px;
 }
 
-.footer-part .row{
+.footer-part .row {
   margin-left: -20px;
   margin-right: -20px;
 }
 
-.footer-part .col-md-4.col-xs-12{
+.footer-part .col-md-4.col-xs-12 {
   padding: 0 20px;
 }
 
-.footer-part a{
+.footer-part a {
   color: #8d8d8d;
 }
 
-.footer-column{
+.footer-column {
   float: left;
   width: 100%;
   padding: 50px 0;
 }
 
-.footer-part .row > div:nth-child(2){
+.footer-part .row > div:nth-child(2) {
   padding-left: 40px !important;
 }
 
-.footer-logo{
+.footer-logo {
   display: inline-block;
   width: 100%;
 }
 
-.footer-logo a{
+.footer-logo a {
   float: left;
   width: auto;
 }
 
-.social{
+.social {
   display: inline-block;
   width: 100%;
   margin: 15px 0 0 0;
@@ -889,7 +917,8 @@ span.quort{
 [11.1. Social Media ]
 ------------------------------------------------------------------*/
 
-.social ul , .social ul li{
+.social ul,
+.social ul li {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -903,13 +932,13 @@ span.quort{
   margin: 0 10px 0 0;
 }
 
-.social ul li a{
+.social ul li a {
   float: left;
   width: 100%;
   color: #8d8d8d;
-  font-size: 16.30px;
+  font-size: 16.3px;
   line-height: 27px;
-  border:2px solid #8d8d8d;
+  border: 2px solid #8d8d8d;
   background: #ffffff;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -917,12 +946,12 @@ span.quort{
   -o-border-radius: 4px;
 }
 
-.social ul li:hover a{
+.social ul li:hover a {
   color: #dd6031;
-  border:2px solid #dd6031;
+  border: 2px solid #dd6031;
 }
 
-.footer-column h3{
+.footer-column h3 {
   color: #ffffff;
   line-height: 24px;
 }
@@ -931,34 +960,34 @@ span.quort{
 [11.2. Address ]
 ------------------------------------------------------------------*/
 
-.address-outer{
+.address-outer {
   display: inline-block;
   width: 100%;
   margin: 35px 0 0 0;
 }
 
-.address-blog{
+.address-blog {
   display: inline-block;
   width: 100%;
 }
 
-.address-outer h6{
+.address-outer h6 {
   color: #ffffff;
-  margin:0px;
+  margin: 0px;
   line-height: 24px;
   font-size: 14px;
 }
 
-.address-outer p{
+.address-outer p {
   margin: 0px;
 }
 
-.address-outer a{
+.address-outer a {
   width: 100%;
   display: inline-block;
 }
 
-.address-outer a:hover{
+.address-outer a:hover {
   color: #dd6031;
 }
 
@@ -966,42 +995,42 @@ span.quort{
 [11.3. Contact Form ]
 ------------------------------------------------------------------*/
 
-.footer-column-form{
+.footer-column-form {
   background: #ffffff;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.footer-column-form h3{
+.footer-column-form h3 {
   color: #4a4a4a;
   margin-bottom: 28px;
 }
 
-.form-field{
+.form-field {
   float: left;
   width: 100%;
   margin: 0 0 20px 0;
 }
 
-.form-field:last-child{
+.form-field:last-child {
   margin: 0px;
 }
 
-.footer-column-form .btn-black{
+.footer-column-form .btn-black {
   width: 100%;
 }
 
-.footer-bottom{
+.footer-bottom {
   float: left;
   width: 100%;
   background: #dd6031;
   padding: 10px 0 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin: -42px 0 0 0;
 }
 
-.footer-bottom p{
+.footer-bottom p {
   margin: 0px;
   color: #181a1e;
 }
@@ -1014,14 +1043,14 @@ span.quort{
 
 /* Isotop Style Start Here.. */
 
-.portfolioFilter-main{
+.portfolioFilter-main {
   width: 100%;
   text-align: center;
   clear: both;
   margin-top: 40px;
 }
 
-.portfolioFilter{
+.portfolioFilter {
   border-bottom: 1px solid #e8e8e8;
   border-top: 1px solid #e8e8e8;
   display: inline-block;
@@ -1033,44 +1062,44 @@ span.quort{
   padding-right: 75px;
 }
 
-.portfolioFilter a { 
-  margin-right: 40px; 
-  color:#4a4a4a;
-  text-decoration:none;
+.portfolioFilter a {
+  margin-right: 40px;
+  color: #4a4a4a;
+  text-decoration: none;
   font-size: 18px;
   position: relative;
 }
 
-.portfolioFilter a.current { 
-    color: #dd6031;
+.portfolioFilter a.current {
+  color: #dd6031;
 }
 
-.portfolioFilter a:last-child{
+.portfolioFilter a:last-child {
   margin: 0px;
 }
 
 .isotope-item {
-    z-index: 2;
+  z-index: 2;
 }
 .isotope-hidden.isotope-item {
-    pointer-events: none;
-    z-index: 1;
+  pointer-events: none;
+  z-index: 1;
 }
 .isotope,
 .isotope .isotope-item {
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 .isotope {
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
-    transition-property: height, width;
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
 }
 .isotope .isotope-item {
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    transition-property: transform, opacity;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
 }
 
 /*------------------------------------------------------------------
@@ -1079,7 +1108,7 @@ span.quort{
 
 /* Bread Crumb Style Start Here... */
 
-.bread-crumb-container{
+.bread-crumb-container {
   float: left;
   width: 100%;
   background: #181a1f;
@@ -1087,19 +1116,18 @@ span.quort{
   margin-top: 30px;
 }
 
-.bread-crumb-img{
+.bread-crumb-img {
   float: left;
   width: 60%;
   margin-top: -30px;
   position: relative;
 }
 
-
-.bread-crumb-img img{
+.bread-crumb-img img {
   width: 100%;
 }
 
-.bread-crumb-content{
+.bread-crumb-content {
   float: right;
   width: 40%;
   color: #ffffff;
@@ -1107,50 +1135,50 @@ span.quort{
   /*text-align: center;*/
 }
 
-.bread-crumb-content a{
+.bread-crumb-content a {
   color: #ffffff;
 }
 
-.bread-crumb-content a:hover{
+.bread-crumb-content a:hover {
   color: #dd6031;
 }
 
-.bread-crumb-inner{
+.bread-crumb-inner {
   float: left;
   width: auto;
   text-transform: capitalize;
 }
 
-.bread-crumb-content h2{
+.bread-crumb-content h1 {
   margin: 0 0 15px 0;
   text-transform: uppercase;
 }
 
 /* Truck locator Style css here... */
 
-.maring-remove{
+.maring-remove {
   margin: 0px !important;
 }
 
-.address-main{
+.address-main {
   float: left;
   width: 100%;
   margin: 30px 0 10px 0;
 }
 
-.address-main h3 a{
+.address-main h3 a {
   color: #4a4a4a;
 }
 
-.address-main .col-xs-12:hover a{
+.address-main .col-xs-12:hover a {
   color: #dd6031;
 }
 
-.address-main .col-xs-12{
+.address-main .col-xs-12 {
   margin: 0 0 96px 0;
 }
 
-.address-main .col-xs-12:hover{
+.address-main .col-xs-12:hover {
   box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.15);
@@ -1161,25 +1189,24 @@ span.quort{
   transition: 0.3s ease-in-out;
 }
 
-
 /*------------------------------------------------------------------
 [14. Event ]
 ------------------------------------------------------------------*/
 
 /* Event Page Style Start Here... */
 
-.event-container{
+.event-container {
   float: left;
   width: 100%;
   margin: 0 0 129px 0;
 }
 
-.event-wrap{
+.event-wrap {
   float: left;
   width: 100%;
 }
 
-.event-list{
+.event-list {
   float: right;
   width: 84%;
   border: 10px solid #e8e8e8;
@@ -1188,18 +1215,18 @@ span.quort{
   margin: 0 0 120px 0;
 }
 
-.event-list:hover{
+.event-list:hover {
   border-color: #f8dfd6;
 }
 
-.event-list:hover .btn-black:before{
+.event-list:hover .btn-black:before {
   transform: scaleY(0);
   -webkit-transform: scaleY(0);
   -ms-transform: scaleY(0);
   -o-transform: scaleY(0);
 }
 
-.event-list p{
+.event-list p {
   margin: 20px 0;
 }
 
@@ -1208,7 +1235,7 @@ span.quort{
   left: -200px;
 }
 
-.load-more{
+.load-more {
   float: left;
   width: 100%;
   text-align: center;
@@ -1221,66 +1248,67 @@ span.quort{
 
 /* Event Detail Wrap Style here... */
 
-.event-detail-wrap{
+.event-detail-wrap {
   float: right;
   width: 84%;
 }
 
-.event-detail-wrap .event-list{
+.event-detail-wrap .event-list {
   width: 100%;
   margin-bottom: 60px;
 }
 
-.pn-link{
+.pn-link {
   float: left;
   width: 100%;
 }
 
-.prev-link{
+.prev-link {
   float: left;
   width: auto;
 }
 
-.next-link{
+.next-link {
   float: right;
   width: auto;
 }
 
-.contact-add-left{
+.contact-add-left {
   font-size: 14px;
 }
 
-.contact-container .shedule-left{
+.contact-container .shedule-left {
   margin: 0px !important;
   padding-right: 35px;
 }
 
-.contact-container button{
+.contact-container button {
   width: 100%;
 }
 
-.contact-bottom{
+.contact-bottom {
   margin-top: 25px;
 }
 
-.contact-add-inner{
+.contact-add-inner {
   margin-bottom: 30px;
 }
 
-.contact-add-left p , .contact-add-left a{
+.contact-add-left p,
+.contact-add-left a {
   color: #8d8d8d;
 }
 
-.contact-add-left span{
+.contact-add-left span {
   width: 100%;
   display: inline-block;
 }
 
-.contact-add-left a{
+.contact-add-left a {
   display: block;
 }
 
-.contact-add-left a:hover{
+.contact-add-left a:hover {
   color: #dd6031;
 }
 
@@ -1290,18 +1318,18 @@ span.quort{
 
 /* Post Detail Page Style Start Here... */
 
-.tags{
+.tags {
   display: inline-block;
   width: 100%;
   color: #8d8d8d;
   margin-top: 30px;
 }
 
-.tags span{
+.tags span {
   color: #4a4a4a;
 }
 
-.post-link{
+.post-link {
   position: absolute;
   bottom: 10px;
   left: 0px;
@@ -1309,108 +1337,109 @@ span.quort{
   padding: 0 10px;
 }
 
-.post-link a{
+.post-link a {
   color: #4a4a4a;
 }
 
-.post-link a:hover{
+.post-link a:hover {
   color: #dd6031;
 }
 
-.post-left-link{
+.post-left-link {
   float: left;
   width: auto;
 }
 
-.post-right-link{
+.post-right-link {
   float: right;
   width: auto;
 }
 
-.post-comment-container{
+.post-comment-container {
   display: inline-block;
   width: 100%;
 }
 
-.post-comment-list{
+.post-comment-list {
   display: inline-block;
   width: 100%;
   margin: 0 0 55px 0;
 }
 
-.post-prof{
+.post-prof {
   float: left;
   width: auto;
 }
 
-.post-comment-content{
+.post-comment-content {
   margin-left: 130px;
 }
 
-.post-comment-content h6{
+.post-comment-content h6 {
   margin: 0px;
   font-size: 16px;
   line-height: 26px;
   color: #494949;
   letter-spacing: normal;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
   font-weight: 700;
 }
 
-.post-comment-content span{
+.post-comment-content span {
   color: #8d8d8d;
   font-size: 14px;
 }
 
-.post-comment-content p{
+.post-comment-content p {
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
-.post-comment-content .btn-black{
+.post-comment-content .btn-black {
   min-width: 103px;
 }
 
-.post-form{
+.post-form {
   display: inline-block;
   width: 100%;
 }
 
-.post-form .btn-black{
+.post-form .btn-black {
   width: 100%;
 }
 
-.post-form textarea{
+.post-form textarea {
   height: 160px;
 }
 
-.post-detail-right{
+.post-detail-right {
   float: left;
   width: 100%;
 }
 
-.post-right-search{
+.post-right-search {
   float: left;
   width: 100%;
   margin: 0 0 37px 0;
 }
 
-.post-categories{
+.post-categories {
   float: left;
   width: 100%;
   margin: 0 0 60px 0;
 }
 
-.post-categories ul , .post-categories ul li{
+.post-categories ul,
+.post-categories ul li {
   list-style: none;
   margin: 0px;
 }
 
-.post-categories ul li{
+.post-categories ul li {
   margin: 0 0 15px 0;
 }
 
-.post-categories ul li a{
+.post-categories ul li a {
   color: #4a4a4a;
   display: inline-block;
   width: auto;
@@ -1418,15 +1447,17 @@ span.quort{
   padding: 0 35px 0 0;
 }
 
-.post-categories ul li:last-child{
+.post-categories ul li:last-child {
   margin: 0px;
 }
 
-.post-categories ul li:hover a , .post-categories ul li.active a{
+.post-categories ul li:hover a,
+.post-categories ul li.active a {
   color: #dd6031;
 }
 
-.post-categories ul li:hover a:before , .post-categories ul li.active a:before{
+.post-categories ul li:hover a:before,
+.post-categories ul li.active a:before {
   width: 100%;
   content: "";
   position: absolute;
@@ -1436,82 +1467,83 @@ span.quort{
   background: #f8dfd6;
 }
 
-.post-button-btn{
+.post-button-btn {
   margin-top: -42px !important;
 }
 
-.post-gallery{
+.post-gallery {
   float: left;
   width: 100%;
 }
 
-.post-gallery-item{
+.post-gallery-item {
   float: left;
   width: 100%;
   margin: 0 0 30px 0;
 }
 
-.post-gallery-item:last-child{
+.post-gallery-item:last-child {
   margin: 0px;
 }
 
 /* News Page Style Start Here... */
 
-.news-detail .event-list{
+.news-detail .event-list {
   padding-left: 215px;
 }
 
-.news-detail .event-pic{
+.news-detail .event-pic {
   left: -149px;
   width: 300px;
 }
 
-.event-detail-noimg{
+.event-detail-noimg {
   width: 100% !important;
 }
 
-.event-detail-noimg .event-list{
+.event-detail-noimg .event-list {
   padding-left: 90px;
 }
 
-.overlay-video{
+.overlay-video {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.overlay-news-video{
+.overlay-news-video {
   position: absolute;
   bottom: 0px;
   width: 100%;
   left: 0px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   text-align: center;
   color: #ffffff;
   font-size: 20px;
   padding: 13px 0;
 }
 
-.news-pagination{
+.news-pagination {
   float: left;
   width: 100%;
 }
 
-.news-pagination ul , .news-pagination ul li{
+.news-pagination ul,
+.news-pagination ul li {
   margin: 0px;
   list-style: none;
 }
 
-.news-pagination ul li{
+.news-pagination ul li {
   float: left;
   width: auto;
   margin: 0 10px 0 0;
 }
 
-.news-pagination ul li a{
+.news-pagination ul li a {
   float: left;
   width: 100%;
-  font-size: 16.30px;
+  font-size: 16.3px;
   font-weight: 700;
   padding: 5px;
   border: 2px solid #e8e8e8;
@@ -1524,7 +1556,8 @@ span.quort{
   padding: 0 13px;
 }
 
-.news-pagination ul li.active a , .news-pagination ul li:hover a{
+.news-pagination ul li.active a,
+.news-pagination ul li:hover a {
   color: #dd6031;
   border-color: #dd6031;
 }
@@ -1576,22 +1609,22 @@ span.quort{
 [Privacy Policy]
 ------------------------------------------------------------------*/
 
-.privacy-policy-section{
+.privacy-policy-section {
   float: left;
   width: 100%;
   padding: 90px 0 110px;
   background: #f8f8f8;
 }
 
-.privacy-policy-heading{
+.privacy-policy-heading {
   max-width: 760px;
   margin: 0 auto 45px;
 }
 
-.privacy-policy-heading span{
+.privacy-policy-heading span {
   display: inline-block;
   color: #dd6031;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -1599,28 +1632,28 @@ span.quort{
   margin-bottom: 8px;
 }
 
-.privacy-policy-heading h2{
+.privacy-policy-heading h2 {
   margin: 0 0 15px;
   color: #4a4a4a;
 }
 
-.privacy-policy-heading p{
+.privacy-policy-heading p {
   margin: 0;
   color: #777777;
   font-size: 16px;
   line-height: 28px;
 }
 
-.privacy-policy-card{
+.privacy-policy-card {
   max-width: 1000px;
   margin: 0 auto;
   background: #ffffff;
   padding: 50px 60px;
   border-radius: 6px;
-  box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
 }
 
-.privacy-intro{
+.privacy-intro {
   background: #f8dfd6;
   border-left: 4px solid #dd6031;
   padding: 22px 25px;
@@ -1628,24 +1661,24 @@ span.quort{
   border-radius: 4px;
 }
 
-.privacy-intro p{
+.privacy-intro p {
   margin: 0;
   color: #4a4a4a;
   font-size: 15px;
   line-height: 28px;
 }
 
-.privacy-block{
+.privacy-block {
   padding: 0 0 28px;
   margin: 0 0 30px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.privacy-block:last-of-type{
+.privacy-block:last-of-type {
   border-bottom: none;
 }
 
-.privacy-block h3{
+.privacy-block h3 {
   display: flex;
   align-items: center;
   margin: 0 0 12px;
@@ -1654,7 +1687,7 @@ span.quort{
   line-height: 30px;
 }
 
-.privacy-block h3 i{
+.privacy-block h3 i {
   display: inline-block;
   flex: 0 0 32px;
   width: 32px;
@@ -1663,14 +1696,14 @@ span.quort{
   margin-right: 7px;
 }
 
-.privacy-block p{
+.privacy-block p {
   margin: 0;
   color: #6f6f6f;
   font-size: 15px;
   line-height: 28px;
 }
 
-.privacy-contact-box{
+.privacy-contact-box {
   margin-top: 15px;
   padding: 35px;
   text-align: center;
@@ -1679,13 +1712,13 @@ span.quort{
   border-radius: 5px;
 }
 
-.privacy-contact-box h3{
+.privacy-contact-box h3 {
   margin: 0 0 10px;
   color: #ffffff;
   font-size: 26px;
 }
 
-.privacy-contact-box p{
+.privacy-contact-box p {
   max-width: 650px;
   margin: 0 auto 20px;
   color: #cccccc;
@@ -1693,92 +1726,88 @@ span.quort{
   line-height: 27px;
 }
 
-.privacy-contact-box .btn-black{
+.privacy-contact-box .btn-black {
   min-width: 150px;
 }
 
-.privacy-updated{
+.privacy-updated {
   text-align: center;
   margin-top: 30px;
 }
 
-.privacy-updated p{
+.privacy-updated p {
   margin: 0;
   font-size: 14px;
   color: #8d8d8d;
 }
 
-.privacy-updated strong{
+.privacy-updated strong {
   color: #4a4a4a;
 }
 
 /* Privacy Policy Responsive */
 
-@media (max-width: 991px){
-
-  .privacy-policy-card{
+@media (max-width: 991px) {
+  .privacy-policy-card {
     padding: 40px;
   }
-
 }
 
-@media (max-width: 767px){
-
-  .privacy-policy-section{
+@media (max-width: 767px) {
+  .privacy-policy-section {
     padding: 60px 0 70px;
   }
 
-  .privacy-policy-heading{
+  .privacy-policy-heading {
     margin-bottom: 30px;
     padding: 0 15px;
   }
 
-  .privacy-policy-heading h2{
+  .privacy-policy-heading h2 {
     font-size: 36px;
     line-height: 42px;
   }
 
-  .privacy-policy-heading p{
+  .privacy-policy-heading p {
     font-size: 15px;
     line-height: 26px;
   }
 
-  .privacy-policy-card{
+  .privacy-policy-card {
     padding: 30px 20px;
   }
 
-  .privacy-intro{
+  .privacy-intro {
     padding: 20px;
     margin-bottom: 30px;
   }
 
-  .privacy-block{
+  .privacy-block {
     padding-bottom: 23px;
     margin-bottom: 25px;
   }
 
-  .privacy-block h3{
+  .privacy-block h3 {
     align-items: flex-start;
     font-size: 20px;
     line-height: 28px;
   }
 
-  .privacy-block h3 i{
+  .privacy-block h3 i {
     flex: 0 0 27px;
     width: 27px;
     font-size: 18px;
     margin-top: 4px;
   }
 
-  .privacy-contact-box{
+  .privacy-contact-box {
     padding: 30px 20px;
   }
 
-  .privacy-contact-box h3{
+  .privacy-contact-box h3 {
     font-size: 23px;
     line-height: 30px;
   }
-
 }
 
 /* SERVICE AREAS CSS */
@@ -1786,39 +1815,39 @@ span.quort{
 [Service Areas]
 ------------------------------------------------------------------*/
 
-.service-areas-section{
+.service-areas-section {
   float: left;
   width: 100%;
   padding: 90px 0 110px;
   background: #f8f8f8;
 }
 
-.service-areas-heading{
+.service-areas-heading {
   max-width: 850px;
   margin: 0 auto 50px;
 }
 
-.service-areas-heading span{
+.service-areas-heading span {
   display: inline-block;
   margin-bottom: 8px;
   color: #dd6031;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
-.service-areas-heading h2{
+.service-areas-heading h2 {
   margin: 0 0 15px;
   color: #4a4a4a;
 }
 
-.service-areas-grid > div{
+.service-areas-grid > div {
   margin-bottom: 30px;
 }
 
-.service-area-card{
+.service-area-card {
   display: flex;
   align-items: center;
   width: 100%;
@@ -1827,11 +1856,11 @@ span.quort{
   background: #ffffff;
   border: 1px solid #eeeeee;
   border-radius: 5px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
 
-.service-area-card > .fa-map-marker{
+.service-area-card > .fa-map-marker {
   flex: 0 0 48px;
   width: 48px;
   height: 48px;
@@ -1844,11 +1873,11 @@ span.quort{
   text-align: center;
 }
 
-.service-area-content{
+.service-area-content {
   flex: 1;
 }
 
-.service-area-content h3{
+.service-area-content h3 {
   margin: 0 0 6px;
   color: #4a4a4a;
   font-size: 20px;
@@ -1856,38 +1885,37 @@ span.quort{
   transition: all 0.3s ease;
 }
 
-
-.service-area-card .area-arrow{
+.service-area-card .area-arrow {
   margin-left: 12px;
   color: #b5b5b5;
   font-size: 22px;
   transition: all 0.3s ease;
 }
 
-.service-area-card:hover{
+.service-area-card:hover {
   border-color: #dd6031;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transform: translateY(-3px);
 }
 
 .service-area-card:hover .service-area-content h3,
-.service-area-card:hover .area-arrow{
+.service-area-card:hover .area-arrow {
   color: #dd6031;
 }
 
-.service-areas-bottom{
+.service-areas-bottom {
   margin-top: 30px;
   padding: 40px 30px;
   background: #181a1e;
   border-radius: 5px;
 }
 
-.service-areas-bottom h3{
+.service-areas-bottom h3 {
   margin: 0 0 10px;
   color: #ffffff;
 }
 
-.service-areas-bottom p{
+.service-areas-bottom p {
   max-width: 700px;
   margin: 0 auto 20px;
   color: #cccccc;
@@ -1895,28 +1923,27 @@ span.quort{
   line-height: 27px;
 }
 
-@media (max-width: 767px){
-
-  .service-areas-section{
+@media (max-width: 767px) {
+  .service-areas-section {
     padding: 60px 0 70px;
   }
 
-  .service-areas-heading{
+  .service-areas-heading {
     margin-bottom: 35px;
     padding: 0 15px;
   }
 
-  .service-areas-heading h2{
+  .service-areas-heading h2 {
     font-size: 36px;
     line-height: 42px;
   }
 
-  .service-area-card{
+  .service-area-card {
     min-height: auto;
     padding: 20px;
   }
 
-  .service-area-card > .fa-map-marker{
+  .service-area-card > .fa-map-marker {
     flex: 0 0 42px;
     width: 42px;
     height: 42px;
@@ -1925,102 +1952,97 @@ span.quort{
     line-height: 42px;
   }
 
-  .service-area-content h3{
+  .service-area-content h3 {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .service-areas-bottom{
+  .service-areas-bottom {
     padding: 30px 20px;
   }
-
 }
 
 /*------------------------------------------------------------------
 [FAQ Page]
 ------------------------------------------------------------------*/
 
-.faq-page-section{
+.faq-page-section {
   float: left;
   width: 100%;
   padding: 90px 0 110px;
   background: #f8f8f8;
 }
 
-.faq-page-heading{
+.faq-page-heading {
   max-width: 820px;
   margin: 0 auto 50px;
 }
 
-.faq-page-heading span{
+.faq-page-heading span {
   display: inline-block;
   margin-bottom: 8px;
   color: #dd6031;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
-.faq-page-heading h2{
+.faq-page-heading h2 {
   margin: 0 0 15px;
   color: #4a4a4a;
 }
 
-.faq-page-heading p{
+.faq-page-heading p {
   margin: 0;
   color: #777777;
   font-size: 16px;
   line-height: 28px;
 }
 
-
 /* FAQ Wrapper */
 
-.faq-wrapper{
+.faq-wrapper {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-
 /* Individual FAQ */
 
-.faq-wrapper .faq-item{
+.faq-wrapper .faq-item {
   width: 100%;
   margin: 0 0 15px;
   padding: 0;
   background: #ffffff;
   border: 1px solid #eeeeee;
   border-radius: 5px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
   overflow: hidden;
 }
 
-
 /* Remove Bootstrap Panel Defaults */
 
-.faq-wrapper.panel-group .panel{
+.faq-wrapper.panel-group .panel {
   margin-bottom: 15px;
 }
 
-.faq-wrapper.panel-group .panel + .panel{
+.faq-wrapper.panel-group .panel + .panel {
   margin-top: 0;
 }
 
-.faq-wrapper .panel{
+.faq-wrapper .panel {
   border: 1px solid #eeeeee;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
 }
-
 
 /* Question */
 
-.faq-question-wrap{
+.faq-question-wrap {
   width: 100%;
 }
 
-.faq-question{
+.faq-question {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2028,7 +2050,7 @@ span.quort{
   padding: 22px 25px;
   background: #ffffff;
   color: #4a4a4a !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
@@ -2038,20 +2060,19 @@ span.quort{
 }
 
 .faq-question:hover,
-.faq-question:focus{
+.faq-question:focus {
   color: #dd6031 !important;
   text-decoration: none;
 }
 
-.faq-question span{
+.faq-question span {
   display: block;
   padding-right: 20px;
 }
 
-
 /* Plus Icon */
 
-.faq-question i{
+.faq-question i {
   flex: 0 0 34px;
   width: 34px;
   height: 34px;
@@ -2064,27 +2085,25 @@ span.quort{
   transition: all 0.3s ease;
 }
 
-
 /* Active/Open Question */
 
-.faq-question[aria-expanded="true"]{
+.faq-question[aria-expanded="true"] {
   color: #dd6031 !important;
 }
 
-.faq-question[aria-expanded="true"] i{
+.faq-question[aria-expanded="true"] i {
   background: #dd6031;
   color: #ffffff;
 }
 
-
 /* FAQ Answer */
 
-.faq-answer{
+.faq-answer {
   padding: 0 25px 23px;
   background: #ffffff;
 }
 
-.faq-answer p{
+.faq-answer p {
   margin: 0;
   padding-top: 18px;
   border-top: 1px solid #eeeeee;
@@ -2093,10 +2112,9 @@ span.quort{
   line-height: 28px;
 }
 
-
 /* FAQ CTA */
 
-.faq-contact-box{
+.faq-contact-box {
   max-width: 1000px;
   margin: 45px auto 0;
   padding: 40px 30px;
@@ -2104,12 +2122,12 @@ span.quort{
   border-radius: 5px;
 }
 
-.faq-contact-box h3{
+.faq-contact-box h3 {
   margin: 0 0 10px;
   color: #ffffff;
 }
 
-.faq-contact-box p{
+.faq-contact-box p {
   max-width: 700px;
   margin: 0 auto 20px;
   color: #cccccc;
@@ -2117,47 +2135,45 @@ span.quort{
   line-height: 27px;
 }
 
-.faq-contact-box .btn-black{
+.faq-contact-box .btn-black {
   margin-top: 5px;
 }
-
 
 /*------------------------------------------------------------------
 [FAQ Responsive]
 ------------------------------------------------------------------*/
 
-@media (max-width: 767px){
-
-  .faq-page-section{
+@media (max-width: 767px) {
+  .faq-page-section {
     padding: 60px 0 70px;
   }
 
-  .faq-page-heading{
+  .faq-page-heading {
     margin-bottom: 35px;
     padding: 0 15px;
   }
 
-  .faq-page-heading h2{
+  .faq-page-heading h2 {
     font-size: 36px;
     line-height: 42px;
   }
 
-  .faq-page-heading p{
+  .faq-page-heading p {
     font-size: 15px;
     line-height: 26px;
   }
 
-  .faq-question{
+  .faq-question {
     padding: 18px 17px;
     font-size: 16px;
     line-height: 24px;
   }
 
-  .faq-question span{
+  .faq-question span {
     padding-right: 12px;
   }
 
-  .faq-question i{
+  .faq-question i {
     flex: 0 0 30px;
     width: 30px;
     height: 30px;
@@ -2165,36 +2181,35 @@ span.quort{
     line-height: 30px;
   }
 
-  .faq-answer{
+  .faq-answer {
     padding: 0 17px 20px;
   }
 
-  .faq-answer p{
+  .faq-answer p {
     font-size: 14px;
     line-height: 26px;
   }
 
-  .faq-contact-box{
+  .faq-contact-box {
     margin-top: 35px;
     padding: 30px 20px;
   }
 
-  .faq-contact-box h3{
+  .faq-contact-box h3 {
     font-size: 25px;
     line-height: 32px;
   }
-
 }
 
 /* GALLERY CLOSE BUTTON */
 /* PrettyPhoto close button - force visible */
-.pp_pic_holder .pp_details{
+.pp_pic_holder .pp_details {
   display: block !important;
   position: relative !important;
   overflow: visible !important;
 }
 
-.pp_pic_holder .pp_close{
+.pp_pic_holder .pp_close {
   display: block !important;
   position: fixed !important;
   top: 20px !important;
@@ -2221,7 +2236,7 @@ span.quort{
   font-size: 0 !important;
 }
 
-.pp_pic_holder .pp_close:after{
+.pp_pic_holder .pp_close:after {
   content: "×";
   display: block;
   width: 45px;
@@ -2235,15 +2250,13 @@ span.quort{
   text-align: center;
 }
 
-.pp_pic_holder .pp_close:hover{
+.pp_pic_holder .pp_close:hover {
   background: #dd6031 !important;
 }
-
 
 /* ==========================================================
     LOS ANGELES CITY PAGE
 ========================================================== */
-
 
 /* ==========================================================
    SHARED
@@ -2253,207 +2266,202 @@ span.quort{
 .dtla-food,
 .dtla-catering,
 .dtla-faq {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .dtla-about,
 .dtla-catering {
-    padding: 80px 0;
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .dtla-food,
 .dtla-faq {
-    padding: 80px 0;
-    background: #f7f7f7;
+  padding: 80px 0;
+  background: #f7f7f7;
 }
 
 .dtla-eyebrow {
-    display: block;
-    margin-bottom: 8px;
-    color: #333333;
-    font-size: 11px;
-    line-height: 1.4;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+  color: #333333;
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 
 .dtla-heading {
-    max-width: 760px;
-    margin: 0 auto 42px;
+  max-width: 760px;
+  margin: 0 auto 42px;
 }
 
 .dtla-heading h2,
 .dtla-about-content h2,
 .dtla-catering-intro h2 {
-    margin: 0;
-    color: #333333;
-    font-size: 34px;
-    line-height: 1.12;
-    font-weight: 700;
+  margin: 0;
+  color: #333333;
+  font-size: 34px;
+  line-height: 1.12;
+  font-weight: 700;
 }
 
 .dtla-heading h2 {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
-
 
 .dtla-note {
-    margin-top: 28px;
+  margin-top: 28px;
 }
-
-
 
 /* ==========================================================
    SECTION 2 - ABOUT
 ========================================================== */
 
 .dtla-about-row {
-    display: flex;
-    align-items: center;
-    gap: 55px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 
 .dtla-about-image {
-    width: calc(50% - 27.5px);
+  width: calc(50% - 27.5px);
 }
 
 .dtla-about-content {
-    width: calc(50% - 27.5px);
+  width: calc(50% - 27.5px);
 }
 
 .dtla-about-image img {
-    display: block;
-    width: 100%;
-    height: 420px;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
 }
 
 .dtla-about-content h2 {
-    max-width: 520px;
-    margin-bottom: 18px;
+  max-width: 520px;
+  margin-bottom: 18px;
 }
-
 
 .dtla-about-content .btn-black {
-    margin-top: 7px;
+  margin-top: 7px;
 }
-
 
 /* ==========================================================
    SECTION 3 - FOOD OPTIONS
 ========================================================== */
 
 .dtla-food-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
 
 .dtla-food-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    background: #ffffff;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
 }
 
 .dtla-food-image {
-    width: 100%;
-    height: 230px;
-    overflow: hidden;
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
 }
 
 .dtla-food-image img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.35s ease;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
 }
 
 .dtla-food-card:hover .dtla-food-image img {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 .dtla-food-content {
-    flex: 1;
-    padding: 22px;
+  flex: 1;
+  padding: 22px;
 }
 
 .dtla-food-content h3 {
-    margin: 0 0 8px;
-    color: #333333;
-    font-size: 20px;
-    line-height: 1.25;
-    font-weight: 600;
+  margin: 0 0 8px;
+  color: #333333;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 600;
 }
-
 
 /* ==========================================================
    SECTION 4 - CATERING
 ========================================================== */
 
 .dtla-catering-row {
-    display: flex;
-    align-items: center;
-    gap: 55px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 
 .dtla-catering-intro {
-    width: calc(40% - 27.5px);
+  width: calc(40% - 27.5px);
 }
 
 .dtla-catering-grid {
-    width: calc(60% - 27.5px);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
+  width: calc(60% - 27.5px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
 }
 
 .dtla-catering-intro h2 {
-    max-width: 430px;
-    margin-bottom: 18px;
+  max-width: 430px;
+  margin-bottom: 18px;
 }
 
 .dtla-catering-intro .btn-black {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .dtla-catering-card {
-    display: block;
-    min-height: 175px;
-    padding: 23px;
-    border: 1px solid #e5e5e5;
-    background: #ffffff;
-    color: #333333;
-    text-decoration: none;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: block;
+  min-height: 175px;
+  padding: 23px;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  color: #333333;
+  text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .dtla-catering-card:hover,
 .dtla-catering-card:focus {
-    color: #333333;
-    text-decoration: none;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+  color: #333333;
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
 }
 
 .dtla-catering-card i {
-    display: block;
-    margin-bottom: 12px;
-    color: #333333;
-    font-size: 22px;
+  display: block;
+  margin-bottom: 12px;
+  color: #333333;
+  font-size: 22px;
 }
 
 .dtla-catering-card h3 {
-    margin: 0 0 8px;
-    color: #333333;
-    font-size: 18px;
-    line-height: 1.25;
-    font-weight: 600;
+  margin: 0 0 8px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 600;
 }
 
 /* ==========================================================
@@ -2461,48 +2469,48 @@ span.quort{
 ========================================================== */
 
 .dtla-faq .dtla-heading {
-    margin-bottom: 38px;
+  margin-bottom: 38px;
 }
 
 .dtla-faq-row {
-    display: flex;
-    align-items: stretch;
-    gap: 40px;
+  display: flex;
+  align-items: stretch;
+  gap: 40px;
 }
 
 .dtla-faq-image {
-    width: calc(48% - 20px);
-    overflow: hidden;
+  width: calc(48% - 20px);
+  overflow: hidden;
 }
 
 .dtla-faq-image img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    min-height: 500px;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
 }
 
 .dtla-faq-list {
-    width: calc(52% - 20px);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  width: calc(52% - 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .dtla-faq-item {
-    flex: 1;
-    padding: 18px 20px;
-    border-left: 3px solid #333333;
-    background: #ffffff;
+  flex: 1;
+  padding: 18px 20px;
+  border-left: 3px solid #333333;
+  background: #ffffff;
 }
 
 .dtla-faq-item h3 {
-    margin: 0 0 7px;
-    color: #333333;
-    font-size: 15px;
-    line-height: 1.4;
-    font-weight: 600;
+  margin: 0 0 7px;
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
 }
 
 /* ==========================================================
@@ -2510,257 +2518,282 @@ span.quort{
 ========================================================== */
 
 @media (max-width: 991px) {
+  .dtla-about,
+  .dtla-food,
+  .dtla-catering,
+  .dtla-faq {
+    padding: 60px 0;
+  }
 
-    .dtla-about,
-    .dtla-food,
-    .dtla-catering,
-    .dtla-faq {
-        padding: 60px 0;
-    }
+  .dtla-heading h2,
+  .dtla-about-content h2,
+  .dtla-catering-intro h2 {
+    font-size: 29px;
+  }
 
-    .dtla-heading h2,
-    .dtla-about-content h2,
-    .dtla-catering-intro h2 {
-        font-size: 29px;
-    }
+  /* About */
 
+  .dtla-about-row {
+    gap: 35px;
+  }
 
-    /* About */
+  .dtla-about-image {
+    width: calc(48% - 17.5px);
+  }
 
-    .dtla-about-row {
-        gap: 35px;
-    }
+  .dtla-about-content {
+    width: calc(52% - 17.5px);
+  }
 
-    .dtla-about-image {
-        width: calc(48% - 17.5px);
-    }
+  .dtla-about-image img {
+    height: 380px;
+  }
 
-    .dtla-about-content {
-        width: calc(52% - 17.5px);
-    }
+  /* Food */
 
-    .dtla-about-image img {
-        height: 380px;
-    }
+  .dtla-food-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 
+  .dtla-food-image {
+    height: 220px;
+  }
 
-    /* Food */
+  /* Catering */
 
-    .dtla-food-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+  .dtla-catering-row {
+    display: block;
+  }
 
-    .dtla-food-image {
-        height: 220px;
-    }
+  .dtla-catering-intro {
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 35px;
+  }
 
+  .dtla-catering-intro h2 {
+    max-width: 550px;
+  }
 
-    /* Catering */
+  .dtla-catering-grid {
+    width: 100%;
+  }
 
-    .dtla-catering-row {
-        display: block;
-    }
+  /* FAQ */
 
-    .dtla-catering-intro {
-        width: 100%;
-        max-width: 650px;
-        margin-bottom: 35px;
-    }
+  .dtla-faq-row {
+    gap: 28px;
+  }
 
-    .dtla-catering-intro h2 {
-        max-width: 550px;
-    }
+  .dtla-faq-image {
+    width: calc(45% - 14px);
+  }
 
-    .dtla-catering-grid {
-        width: 100%;
-    }
+  .dtla-faq-list {
+    width: calc(55% - 14px);
+  }
 
-
-    /* FAQ */
-
-    .dtla-faq-row {
-        gap: 28px;
-    }
-
-    .dtla-faq-image {
-        width: calc(45% - 14px);
-    }
-
-    .dtla-faq-list {
-        width: calc(55% - 14px);
-    }
-
-    .dtla-faq-image img {
-        min-height: 520px;
-    }
-
+  .dtla-faq-image img {
+    min-height: 520px;
+  }
 }
-
 
 /* ==========================================================
    MOBILE - BELOW 768px
 ========================================================== */
 
 @media (max-width: 767px) {
+  .dtla-about,
+  .dtla-food,
+  .dtla-catering,
+  .dtla-faq {
+    padding: 45px 0;
+  }
 
-    .dtla-about,
-    .dtla-food,
-    .dtla-catering,
-    .dtla-faq {
-        padding: 45px 0;
-    }
+  .dtla-heading {
+    margin-bottom: 30px;
+  }
 
-    .dtla-heading {
-        margin-bottom: 30px;
-    }
+  .dtla-heading h2,
+  .dtla-about-content h2,
+  .dtla-catering-intro h2 {
+    font-size: 26px;
+    line-height: 1.15;
+  }
 
-    .dtla-heading h2,
-    .dtla-about-content h2,
-    .dtla-catering-intro h2 {
-        font-size: 26px;
-        line-height: 1.15;
-    }
+  /* About */
 
+  .dtla-about-row {
+    display: block;
+  }
 
-    /* About */
+  .dtla-about-image,
+  .dtla-about-content {
+    width: 100%;
+  }
 
-    .dtla-about-row {
-        display: block;
-    }
+  .dtla-about-image {
+    margin-bottom: 28px;
+  }
 
-    .dtla-about-image,
-    .dtla-about-content {
-        width: 100%;
-    }
+  .dtla-about-image img {
+    width: 100%;
+    height: 350px;
+  }
 
-    .dtla-about-image {
-        margin-bottom: 28px;
-    }
+  /* Food */
 
-    .dtla-about-image img {
-        width: 100%;
-        height: 350px;
-    }
+  .dtla-food-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
+  .dtla-food-image {
+    height: 300px;
+  }
 
-    /* Food */
+  .dtla-food-content {
+    padding: 20px;
+  }
 
-    .dtla-food-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
+  /* Catering */
 
-    .dtla-food-image {
-        height: 300px;
-    }
+  .dtla-catering-intro {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
-    .dtla-food-content {
-        padding: 20px;
-    }
+  .dtla-catering-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 
+  .dtla-catering-card {
+    min-height: 0;
+    padding: 20px;
+  }
 
-    /* Catering */
+  /* FAQ */
 
-    .dtla-catering-intro {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+  .dtla-faq .dtla-heading {
+    margin-bottom: 28px;
+  }
 
-    .dtla-catering-grid {
-        width: 100%;
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
+  .dtla-faq-row {
+    display: block;
+  }
 
-    .dtla-catering-card {
-        min-height: 0;
-        padding: 20px;
-    }
+  .dtla-faq-image,
+  .dtla-faq-list {
+    width: 100%;
+  }
 
+  .dtla-faq-image {
+    margin-bottom: 25px;
+  }
 
-    /* FAQ */
+  .dtla-faq-image img {
+    width: 100%;
+    min-height: 0;
+  }
 
-    .dtla-faq .dtla-heading {
-        margin-bottom: 28px;
-    }
+  .dtla-faq-list {
+    display: block;
+  }
 
-    .dtla-faq-row {
-        display: block;
-    }
+  .dtla-faq-item {
+    margin-bottom: 12px;
+    padding: 18px;
+  }
 
-    .dtla-faq-image,
-    .dtla-faq-list {
-        width: 100%;
-    }
-
-    .dtla-faq-image {
-        margin-bottom: 25px;
-    }
-
-    .dtla-faq-image img {
-        width: 100%;
-        height: 350px;
-        min-height: 0;
-    }
-
-    .dtla-faq-list {
-        display: block;
-    }
-
-    .dtla-faq-item {
-        margin-bottom: 12px;
-        padding: 18px;
-    }
-
-    .dtla-faq-item:last-child {
-        margin-bottom: 0;
-    }
-
+  .dtla-faq-item:last-child {
+    margin-bottom: 0;
+  }
 }
-
 
 /* ==========================================================
    SMALL MOBILE - BELOW 481px
 ========================================================== */
 
 @media (max-width: 480px) {
+  .dtla-about,
+  .dtla-food,
+  .dtla-catering,
+  .dtla-faq {
+    padding: 40px 0;
+  }
 
-    .dtla-about,
-    .dtla-food,
-    .dtla-catering,
-    .dtla-faq {
-        padding: 40px 0;
-    }
+  .dtla-heading h2,
+  .dtla-about-content h2,
+  .dtla-catering-intro h2 {
+    font-size: 24px;
+  }
 
-    .dtla-heading h2,
-    .dtla-about-content h2,
-    .dtla-catering-intro h2 {
-        font-size: 24px;
-    }
+  .dtla-about-image img {
+    height: 270px;
+  }
 
-    .dtla-about-image img {
-        height: 270px;
-    }
+  .dtla-food-image {
+    height: 250px;
+  }
 
-    .dtla-food-image {
-        height: 250px;
-    }
+  .dtla-faq-image img {
+    height: 280px;
+  }
 
-    .dtla-faq-image img {
-        height: 280px;
-    }
+  .dtla-food-content h3 {
+    font-size: 19px;
+  }
 
-    .dtla-food-content h3 {
-        font-size: 19px;
-    }
+  .dtla-catering-card h3 {
+    font-size: 17px;
+  }
 
-    .dtla-catering-card h3 {
-        font-size: 17px;
-    }
+  .dtla-faq-item h3 {
+    font-size: 15px;
+  }
+}
 
-    .dtla-faq-item h3 {
-        font-size: 15px;
-    }
+/* ==========================================================
+   404 ERROR PAGE
+========================================================== */
+.error-page {
+  padding: 0 0 100px 0;
+}
 
+.error-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.error-content h1 {
+  font-size: 300px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+
+.error-content h2 {
+  margin-bottom: 20px;
+}
+
+.error-content p {
+  margin-bottom: 30px;
+}
+
+.error-content .btn-black {
+  display: inline-block;
+  margin: 5px;
+}
+
+@media (max-width: 767px) {
+  .error-page {
+    padding: 70px 0;
+  }
+
+  .error-content h1 {
+    font-size: 100px;
+  }
 }
